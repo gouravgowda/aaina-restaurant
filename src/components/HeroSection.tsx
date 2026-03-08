@@ -55,14 +55,14 @@ export default function HeroSection() {
           transition={{ duration: 1, delay: 0.6 }}
         >
           <a
-            href="#contact"
+            href="/contact"
             className="px-8 py-3 bg-gold text-dark font-medium text-sm tracking-wider
                        hover:bg-gold-dark transition-all duration-300 min-w-[180px]"
           >
             Reserve Table
           </a>
           <a
-            href="#menu"
+            href="/menu"
             className="px-8 py-3 border border-gold text-gold font-medium text-sm tracking-wider
                        hover:bg-gold hover:text-dark transition-all duration-300 min-w-[180px]"
           >
