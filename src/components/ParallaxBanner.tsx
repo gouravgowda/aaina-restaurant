@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function ParallaxBanner() {
   return (
-    <section className="relative h-[400px] md:h-[450px] flex items-center justify-center overflow-hidden">
+    <section className="relative py-24 md:py-32 flex items-center justify-center overflow-hidden">
       {/* Background with parallax-like fixed effect */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-fixed bg-no-repeat"

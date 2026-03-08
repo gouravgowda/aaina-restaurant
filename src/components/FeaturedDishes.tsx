@@ -91,7 +91,7 @@ export default function FeaturedDishes() {
   const dish = dishes[current];
 
   return (
-    <section id="menu" className="py-16 md:py-24 bg-beige">
+    <section id="menu" className="pt-16 md:pt-24 pb-8 md:pb-16 bg-beige">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
